@@ -49,9 +49,7 @@
       </el-menu>
     </el-aside>
     <el-container class="content">
-      <div class="main">
-        <router-view />
-      </div>
+      <router-view />
     </el-container>
   </el-container>
 </template>
@@ -60,7 +58,7 @@
 
 <style scoped>
 .container {
-  min-height: 100vh;
+  min-height: 98vh;
   background-color: #fff;
 }
 .aside {
@@ -92,10 +90,5 @@
   flex-direction: column;
   max-height: 100vh;
   overflow: hidden;
-}
-.main {
-  height: calc(100vh - 100px);
-  overflow: auto;
-  padding: 10px;
 }
 </style>

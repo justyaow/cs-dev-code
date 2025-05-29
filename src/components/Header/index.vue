@@ -4,6 +4,9 @@
     <el-button type="primary" @click="submitSearch" class="searchButton"
       ><el-icon><Search /></el-icon>搜索</el-button
     >
+    <el-button type="primary" @click="submitAi" class="aiButton"
+      >AI问答</el-button
+    >
   </div>
 </template>
 <script setup></script>
@@ -27,5 +30,16 @@
 .searchButton {
   border-radius: 15px;
   background-color: rgb(255, 98, 0);
+  margin-right: 10px;
+}
+.aiButton {
+  border-radius: 15px;
+  background: linear-gradient(to right, purple, blue);
+}
+.searchButton:hover {
+  background-color: red !important;
+}
+.aiButton:hover {
+  background-color: purple !important;
 }
 </style>
