@@ -89,14 +89,14 @@ const radio = ref("all");
   margin-left: 30px;
   margin-top: 10px;
 }
-.content {
+/* .content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
   overflow-y: auto;
-}
+} */
 .allButton :deep(.el-radio-button__inner) {
   margin-right: 20px;
   border-radius: 10px !important;
